@@ -73,6 +73,12 @@ function countFlips(array) {
       tailcount++
     }
   }
+  if(headCount == 0) {
+    return {"tails": tailcount}
+  }
+  if(tailcount == 0) {
+    return { "heads": headCount }
+  }
   return { "tails": tailcount, "heads": headCount}
 }
 
