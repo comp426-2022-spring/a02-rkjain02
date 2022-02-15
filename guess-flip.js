@@ -10,7 +10,7 @@ if(args.call == "tails" || args.call == "heads") {
 }
 else {
     console.log("Error: no input.")
-    console.log("Usage: node guess - flip--call = [heads | tails]")
+    console.log("Usage: node guess-flip --call=[heads|tails]")
     process.exit(1)
 }
 
